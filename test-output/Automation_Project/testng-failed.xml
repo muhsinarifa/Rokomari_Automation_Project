@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation_Project]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HomePageTest(failed)">
+    <classes>
+      <class name="it.com.bd.tests.BookSelectionPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="BookSelectionPagePageTest"/>
+          <include name="afterClass"/>
+          <include name="openUrl"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- it.com.bd.tests.BookSelectionPageTest -->
+      <class name="it.com.bd.tests.CartPageTest">
+        <methods>
+          <include name="close"/>
+          <include name="openUrl"/>
+          <include name="cartPageTest"/>
+          <include name="start"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- it.com.bd.tests.CartPageTest -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Automation_Project] -->
